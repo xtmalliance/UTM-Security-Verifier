@@ -8,10 +8,12 @@ This project encompasses two primary phases. Initially, it involves the implemen
 This phase ensures that the UTM adapter adheres to the specified requirements and functions as intended.
 Subsequently, the project focuses on verifying the security features associated with individual UTM services.
 This comprehensive approach aims to assess the robustness and effectiveness of cybersecurity measures implemented within the UTM ecosystem.
+![cyber_verification](https://github.com/govindsi/UTM-Security-Verification-Suite/assets/8924200/f5f8c9c5-0eb2-43b9-8d47-ca052645f269)
+
 
 ## Deliverables
 
-1. Test framework for UTM adapter functional specifications
+1. Test framework for UTM adapter functional specifications.
 2. Secutity test frameowrk for UTM services.
    * Develop test cases to verify each security feature, ensuring that they meet the specified requirements
    * Document the results of the security verification process, including any findings, recommendations, and
@@ -19,7 +21,7 @@ This comprehensive approach aims to assess the robustness and effectiveness of c
    
 ## Timeline
 
- # Evaluation phase: APR 2023
+  * Evaluation phase: APR 2023
   * Phase 1: SEP 2023
   * Phase 2: MAR 2024
 
