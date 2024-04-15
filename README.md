@@ -4,9 +4,10 @@
 This project aims to implement a security verification test suite and framework for systems providing Unmanned Traffic Management (UTM) services.
 
 ## Introduction
-UTM can be considered as critical national infrastructure and one that is primarily digital. From a regulatory standpoint, different aviation regulators are mandating different security mechanisms given the safety focus of the aviation system. For example, the FAA's [Near-Term Approval Process](https://www.faa.gov/uas/advanced_operations/traffic_management) (NTAP) evaluates third-party services based on safety mitigation, including compliance with ISO standards for information security management systems.
-Similarly, the EU [Regulation 2021/664 ](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0664) on U-Space and the accompanying [AMC/GM](https://www.easa.europa.eu/en/document-library/acceptable-means-of-compliance-and-guidance-materials/amc-and-gm-implementing) mandates security management systems and contingency plans, emphasizing a risk-based approach to security risks identification, assessment, and mitigation. However, these frameworks
-does not specify the detailed processes for threat classification and mitigation.
+UTM can be considered as critical national infrastructure and one that is primarily digital. From a regulatory standpoint, different aviation regulators are mandating different security mechanisms given the safety focus of the aviation system. For example, the FAA's [Near-Term Approval Process](https://www.faa.gov/uas/advanced_operations/traffic_management) (NTAP) evaluates third-party services based on safety mitigation, including compliance with ISO standards for information security management systems. The FAA released the conclusive report concerning the [UTM Pilot Program](https://www.faa.gov/sites/faa.gov/files/PL_115-254_Sec376_UAS_Traffic_Management.pdf). Within this report, a segment focusing on message security (Section 4.9) advises securing the connection between the UTM node and the Flight Information Management System utilizing OAuth 2.0 for authorization and TLS for ensuring link security with Public Key Infrastructure (PKI) using certificate authorities [e.g., IATF](https://www.icao.int/airnavigation/IATF/Pages/default.aspx) to manage the use of digital certificates.Their primary recommendation encompasses various measures broadly, including the implementation of digital signatures.
+
+Similarly, the EU [Regulation 2021/664 ](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R0664) on U-Space and the accompanying [AMC/GM](https://www.easa.europa.eu/en/document-library/acceptable-means-of-compliance-and-guidance-materials/amc-and-gm-implementing) mandates security management systems and contingency plans, emphasizing a risk-based approach to security risks identification, assessment, and mitigation.  [AMC/GM1](https://www.easa.europa.eu/en/document-library/acceptable-means-of-compliance-and-guidance-materials/amc-and-gm-implementing) Point 3 of Annex V broadly specifies the exchange of relevant operational data and information between U-space service providers and air traffic service providers in accordance with Transport Layer Security 1.2. However, these frameworks does not specify the detailed processes for threat classification and mitigation.
+
 ## Background
 In this context, [TII](https://tii.ae), a leading research organization and [OpenUTM](https://openutm.net) a leading UTM implementation, co-led a task force within [GUTMA](https://gutma.org) on Secure and Resilient UTM to explore the implications for UTM service providers around security considerations for UTM services, see report PDF here. As a consequence of the task-force, a need to develop tooling and verification mechanism for security considerations was identified. 
 The goal of this project it so provide a comprehensive, updated tools that can be run against UTM services to verify compliance against a specific class of ever evolving cyber-securtiy threats. The toolset is aimed to be run routinely against the UTM system under test to monitor conformance and response to security threats. This initiative aims to bolster cybersecurity concerns of regulators associated with certification by establishing a robust security framework grounded in industry standards. 
@@ -38,7 +39,7 @@ This project has to main deliverables that can be implemented by any GCS and a U
 ## Timeline
 
   * Evaluation phase: MAY 2023
-  * Phase 1: OCT 2023
+  * Phase 1: NOV 2023
   * Phase 2: MAR 2024
 
 ## Features
