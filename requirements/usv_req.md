@@ -1,5 +1,5 @@
 # Requirements
-Cyber security and resilience of UTM services is constantly evolving as the threats and vectors of attack change. While there are cyber-security standards and practices e.g. ISO 27001, they are generalized and specify procedures and practices within a organization. In this document we develop generalized requirements and importantly tooling to go beyond the state of the art. 
+Cyber security and resilience of UTM services is constantly evolving as the threats and vectors of attack change. While there are cyber-security standards and practices e.g. ISO 27001, they are generalized and specify procedures and practices within a organization. In this document we develop generalized requirements and importantly tooling to test implementations that go beyond the state of the art. 
 
 ## Table of Regulatory Security Requirements for UTM services
 | Regulatory Requirement | Relevant Standard(s) | Asset | State of the Art (2024) | Verifier Requirement Group| Test| Report |
